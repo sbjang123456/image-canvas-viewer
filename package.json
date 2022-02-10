@@ -1,0 +1,40 @@
+{
+  "name": "image-canvas-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --emitDeclarationOnly & rollup --config --environment NODE_ENV:production",
+    "start": "rollup --watch --config --environment NODE_ENV:development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbjang123456/image-canvas-viewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbjang123456/image-canvas-viewer/issues"
+  },
+  "homepage": "https://github.com/sbjang123456/image-canvas-viewer#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-html": "^0.2.4",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "babel-preset-react-app": "^10.0.1",
+    "rollup": "^2.67.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.5.5"
+  }
+}
